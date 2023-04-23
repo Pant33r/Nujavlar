@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tAv4F8F2VPCf4v/jVLlHY7y9GAjtD5FfiDPJs2ztqVUMF48pGVwlW75omSJCl+PFSVkzz+W/LKze3BnXERt6PA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\felixwilhelm.stalo\\Documents\\programering\\C#\\Nujavlar\\Nujavlar\\Nujavlar.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felixwilhelm.stalo\\.nuget\\packages\\raylib-cs\\4.2.0.2\\raylib-cs.4.2.0.2.nupkg.sha512",
+    "C:\\Users\\felixwilhelm.stalo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
