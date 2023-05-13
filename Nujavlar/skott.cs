@@ -3,6 +3,14 @@ using Raylib_cs;
 using System.Numerics;
 
 
+//"Public" används för att dem kan komma till användning i andra delar av programmet. Annars hade Private används om det enbart skulle behövas inom denna cs som Vector2 i Enemy.cs
+
+//hela Bullet classen fungerar som en mall för alla skott som kallas för i program.cs varhe skott har en storlek av 15,15 men har variabler som ändrar dens riktning 
+//bullets kommer alltid att ha en hastighet av 8f vilket betyder att den rör sig 8gånger i en viss riktning per frame
+//"bulletTrajectory" får sina varden utifrån varje case vilket är riktningen och "shootingMechanics" är egentligen bulletrektanglens position som uppdateras efter de värden bulletTrajectory har
+//Varje case är utifrån vilket riktning player är i och hur värdena ändras utifrån varje case. EX +x = bulletspeed och -x = -bulletspeed.
+//längst ned så ritas det ut en texture över bullet
+
 public class Bullet
 {
     PlayerClass player;

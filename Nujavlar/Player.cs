@@ -2,6 +2,11 @@ using System;
 using System.Numerics;
 using Raylib_cs;
 
+//"Public" används för att dem kan komma till användsning i andra delar av programmet. Annars hade Private används om det enbart skulle behövas inom denna cs som Vector2 i Enemy.cs
+//En direktion string och direction int för vänster och höger alltså x=+/- men också upp och ned för då y=+/-
+//String "direction" och directionINT används för att räkna ut vilket riktning som skottet som jägaren skjuter ska skjutas i anledningen till detta är för att göra skott riktningen senare enklare att räkna ut
+//Det fungerar så att när players x,y kordinater ändrats posetivt eller negativt så ändras också direction. 
+//alltså så krävs det bara att den går för x=100 till x=99 för att riktningen ska bli åt vänster. Samma för y axeln fast för dens kordinater. 
 public class PlayerClass
 {
     public Rectangle character = new(0, 60, 50, 50);
